@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+
+	<dict>
+
+	    <key>Name</key>
+	    	<string>MMJ Base Universal iOS Application</string>
+
+		<key>Description</key>
+			<string>This template provides a starting point for Universal iOS application that uses no XIBs or Stortyboards. It has launch images in all sizes. Also contains prefix header.</string>
+
+	 	<key>Identifier</key>
+			<string>hr.token.template.project.application.ios.mmj</string>
+
+		<key>Kind</key>
+			<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
+
+		<!-- The Ancestors key is an array of strings. The strings are the identifiers of the project templates your template inherits from. If your template has no ancestors, you can ignore this key. -->
+		<key>Ancestors</key>
+			<array>
+				<string>com.apple.dt.unit.cocoaTouchApplication</string>
+			</array>
+
+		<!-- Set the Concrete key to YES for your template to appear in the New Project Assistant. -->
+		<key>Concrete</key>
+			<true/>
+
+		<key>SortOrder</key>
+			<integer>1</integer>
+
+        <key>Type</key>
+            <string>popup</string>
+
+		<!-- Platforms -->
+		<key>Platforms</key>
+			<array>
+				<string>com.apple.platform.iphoneos</string>
+			</array>
+
+		<!-- The Options key is an array that lets you add controls to the New Project Assistant. An example of a custom control is the Type pop-up menu for command-line tool projects that lets you choose the language for the project. The Type menu is an example of a custom control. -->
+		<key>Options</key>
+			<array>
+				<dict>
+
+					<key>Description</key>
+						<string>Your new product&apos;s name.</string>
+
+					<key>EmptyReplacement</key>
+						<string>ProductName</string>
+
+					<key>Identifier</key>
+						<string>productName</string>
+
+					<key>Name</key>
+						<string>Product Name</string>
+
+					<key>NotPersisted</key>
+						<true/>
+
+					<key>Required</key>
+						<true/>
+
+					<key>Type</key>
+						<string>text</string>
+						
+				</dict>
+			</array>
+
+		<key>Project</key>
+			<dict>
+
+				<key>SDK</key>
+					<string>iphoneos</string>
+
+				<key>Configurations</key>
+
+					<dict>
+
+						<key>Debug</key>
+							<dict>
+								<key>GCC_OPTIMIZATION_LEVEL</key>
+									<string>0</string>
+
+								<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+									<string>DEBUG</string>
+
+								<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
+									<string>NO</string>
+							</dict>
+
+						<key>Release</key>
+							<dict>
+								<key>VALIDATE_PRODUCT</key>
+								<string>YES</string>
+							</dict>
+
+					</dict>
+
+				<key>SharedSettings</key>
+
+					<dict>
+
+						<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+							<string>latest_iphoneos</string>
+
+						<key>TARGETED_DEVICE_FAMILY</key>
+							<string>1,2</string>
+
+						<!-- Imported from com.apple.dt.unit.base -->
+			            <key>GCC_C_LANGUAGE_STANDARD</key>
+			            	<string>gnu99</string>
+
+			            <key>CLANG_CXX_LANGUAGE_STANDARD</key>
+			            	<string>gnu++0x</string>
+
+			            <key>CLANG_CXX_LIBRARY</key>
+			            	<string>libc++</string>
+
+			            <key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+			            	<string>YES_ERROR</string>
+
+			            <key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+			            	<string>YES_AGGRESSIVE</string>
+
+			            <key>CLANG_WARN_UNREACHABLE_CODE</key>
+			            	<string>YES</string>
+
+			            <key>GCC_WARN_UNUSED_VARIABLE</key>
+			            	<string>YES</string>
+
+			            <key>GCC_WARN_UNUSED_FUNCTION</key>
+			            	<string>YES</string>
+
+			            <key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+			            	<string>YES</string>
+
+			            <key>CLANG_WARN_EMPTY_BODY</key>
+			            	<string>YES</string>
+
+			            <key>CLANG_WARN_CONSTANT_CONVERSION</key>
+			            	<string>YES</string>
+
+			            <key>CLANG_WARN_INT_CONVERSION</key>
+			            	<string>YES</string>
+
+			            <key>CLANG_WARN_BOOL_CONVERSION</key>
+			            	<string>YES</string>
+
+			            <key>CLANG_WARN_ENUM_CONVERSION</key>
+			            	<string>YES</string>
+
+			            <key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+			            	<string>YES_ERROR</string>
+
+			            <key>GCC_WARN_UNDECLARED_SELECTOR</key>
+			            	<string>YES</string>
+
+			            <key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+			            	<string>YES</string>
+
+			            <key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+			            	<string>YES_ERROR</string>
+
+			            <key>CLANG_ENABLE_OBJC_ARC</key>
+			            	<string>YES</string>
+
+			            <key>CLANG_ENABLE_MODULES</key>
+			            	<string>YES</string>
+
+			            <key>ENABLE_STRICT_OBJC_MSGSEND</key>
+			            	<string>YES</string>
+
+			            <key>ALWAYS_SEARCH_USER_PATHS</key>
+			            	<string>NO</string>
+
+						<!-- Code Sign -->
+						<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+							<string>iPhone Developer</string>
+
+					</dict>
+			</dict>
+
+		<key>Targets</key>
+			<array>
+				<dict>
+
+					<key>Name</key>
+						<string>___PACKAGENAME___</string>
+	
+					<key>TargetIdentifier</key>
+						<string>com.apple.dt.cocoaTouchApplicationTarget</string>
+
+					<!-- ProductType -->
+					<key>ProductType</key>
+					<!-- must be com.apple.product-type.tool -->
+        				<!--<string>com.apple.product-type.application</string> -->
+
+        				<!--target specifies product type 'com.apple.product-type.tool', but there's no such product type for the 'iphonesimulator' platform  -->
+        				<string>com.apple.product-type.application</string> 
+
+	 				<key>BuildPhases</key>
+						<array>
+
+							<dict>
+								<key>Class</key>
+									<string>Sources</string>
+							</dict>
+
+							<dict>
+								<key>Class</key>
+									<string>Frameworks</string>
+							</dict>
+
+							<dict>
+								<key>Class</key>
+									<string>Resources</string>
+							</dict>
+
+						</array>
+
+					<key>Configurations</key>
+						<dict>
+							<key>Debug</key>
+								<dict/>
+
+							<key>Release</key>
+								<dict/>
+
+						</dict>
+
+					<key>Frameworks</key>
+						<array>
+							<string>UIKit</string>
+							<string>Foundation</string>
+							<string>CoreGraphics</string>
+						</array>
+						
+					<key>SharedSettings</key>
+						<dict>
+							<key>ALWAYS_SEARCH_USER_PATHS</key>
+								<string>NO</string>
+
+							<key>PRODUCT_NAME</key>
+								<string>$(TARGET_NAME)</string>
+
+							<!-- use AppIcon from Images.xcassets -->
+							<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+								<string>AppIcon</string>
+							
+							<!-- use LaunchImage from Images.xcassets -->
+							<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
+								<string>LaunchImage</string>
+
+							<!-- use prefix header -->
+							<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
+								<string>YES</string>
+
+							<!-- prefix header path -->
+							<key>GCC_PREFIX_HEADER</key>
+								<string>___PACKAGENAME___/SupportingFiles/Prefix.pch</string>
+
+							<!-- Info.plist path -->
+							<key>INFOPLIST_FILE</key>
+								<string>___PACKAGENAME___/SupportingFiles/Info.plist</string>
+
+							<key>LD_RUNPATH_SEARCH_PATHS</key>
+								<string>$(inherited) @executable_path/Frameworks</string>
+
+							<key>TargetIdentifier</key>
+								<string>com.apple.dt.cocoaTouchApplicationTarget</string>
+
+						</dict>
+				</dict>
+			</array>
+
+		<!-- The Definitions key is a dictionary. This key allows you to add comments, includes, and code to source code files. It also allows you to create groups from files or folders in an Xcode workspace. If you use the Definitions key to create groups, you must also have a Nodes key in your project template. -->
+		<key>Definitions</key> <!-- Definitions Start -->
+
+			<dict>
+
+				<!-- Imports -->
+				<key>*:imports:importCocoa</key>
+					<string>#import &lt;UIKit/UIKit.h&gt;</string>
+
+				<key>*:imports:importCocoaForUmbrellaHeader</key>
+					<string>#import &lt;UIKit/UIKit.h&gt;</string>
+
+				<!-- SupportingFiles-->
+					<key>../.gitignore</key> <!-- .gitignore -->
+						<dict>
+							<key>Path</key>
+								<string>.gitignore</string>
+							<key>Group</key>
+								<string>SupportingFiles</string>
+							<key>TargetIndices</key>
+								<array/>
+						</dict>
+
+					<key>SupportingFiles/Info.plist</key> <!-- Info.plist -->
+						<dict>
+							<key>Group</key>
+								<string>SupportingFiles</string>
+							<key>Path</key>
+								<string>SupportingFiles/Info.plist</string>
+							<key>TargetIndices</key>
+								<array/>
+						</dict>
+
+					<key>SupportingFiles/Prefix.pch</key> <!-- Prefix.pch -->
+						<dict>
+							<key>Group</key>
+								<string>SupportingFiles</string>
+							<key>Path</key>
+								<string>SupportingFiles/Prefix.pch</string>
+							<key>TargetIndices</key>
+								<array/>
+						</dict>
+
+					<key>SupportingFiles/main.m</key> <!-- main.m -->
+						<dict>
+							<key>Group</key>
+								<string>SupportingFiles</string>
+							<key>Path</key>
+								<string>SupportingFiles/main.m</string>
+						</dict>
+
+				<!-- Resources-->
+					<key>Images.xcassets</key> <!-- Images.xcassets -->
+						<dict>
+							<key>Path</key>
+								<string>Images.xcassets</string>
+							<key>SortOrder</key>
+								<integer>100</integer>
+						</dict>
+
+				<!-- Application-->
+					<key>Application/AppDelegate.h</key> <!-- AppDelegate.h -->
+						<dict>
+							<key>Group</key>
+								<string>Application</string>
+							<key>Path</key>
+								<string>Application/AppDelegate.h</string>
+							<key>TargetIndices</key>
+								<array/>
+						</dict>
+
+					<key>Application/AppDelegate.m</key> <!-- AppDelegate.m -->
+						<dict>
+							<key>Group</key>
+								<string>Application</string>
+							<key>Path</key>
+								<string>Application/AppDelegate.m</string>
+						</dict>
+
+					<key>Application/TokenConsts.h</key> <!-- TokenConsts.h -->
+						<dict>
+							<key>Group</key>
+								<string>Application</string>
+							<key>Path</key>
+								<string>Application/TokenConsts.h</string>
+							<key>TargetIndices</key>
+								<array/>
+						</dict>
+
+			</dict> <!-- Definitions End -->
+
+		<!-- The Nodes key is an array key that creates a file in the project. Add a string key for each file you want to be created in the project. The value for the key is the name of the file. -->
+		 <key>Nodes</key> <!-- Nodes Start -->
+
+	        <array>
+
+	        <!-- SupportingFiles-->
+ 				<string>.gitignore</string>
+ 				<string>SupportingFiles/Info.plist</string>
+ 				<string>SupportingFiles/Prefix.pch</string>
+ 				<string>SupportingFiles/main.m</string>
+
+			<!-- Resources-->
+ 				<string>Images.xcassets</string>
+
+			<!-- Application-->
+ 				<string>Application/AppDelegate.h</string>
+ 				<string>Application/AppDelegate.m</string>
+ 				<string>Application/TokenConsts.h</string>
+
+	        </array> <!-- Nodes End -->
+			
+
+	</dict>
+
+</plist>
