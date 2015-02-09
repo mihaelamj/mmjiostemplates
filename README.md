@@ -25,7 +25,5 @@ Project Templates
 * Inline AppDelegate to not include may name in the header.
 * Inline Prefix.pch.
 * Inline Info.plist.
-* Add options for company name.
 * Add options for choosing Application type: (iPhone, iPad, Universal).
-* Include Test Project.
 * Add option to include Podfile.
