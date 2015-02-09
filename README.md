@@ -39,7 +39,7 @@ Project Templates
 
 ##TODO:
 ###MMJ Base Universal iOS Application
-* Inline all included files, so that my name is not in the header.
+* Inline all included files, so that my name is not in the header/top comments.
 
 
 ###MMJ Token Universal iOS Application
