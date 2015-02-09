@@ -56,6 +56,8 @@
 		<key>Options</key>
 			<array>
 				<dict>
+					<key>Name</key>
+						<string>Product Name</string>
 
 					<key>Description</key>
 						<string>Your new product&apos;s name.</string>
@@ -66,9 +68,6 @@
 					<key>Identifier</key>
 						<string>productName</string>
 
-					<key>Name</key>
-						<string>Product Name</string>
-
 					<key>NotPersisted</key>
 						<true/>
 
@@ -76,9 +75,67 @@
 						<true/>
 
 					<key>Type</key>
-						<string>text</string>
-						
-				</dict>
+						<string>text</string>	
+				</dict> <!-- productName -->
+
+	            <dict>
+	                <key>Identifier</key>
+	                    <string>organizationName</string>
+
+	                <key>Name</key>
+	                    <string>Organization Name:</string>
+
+	                <key>Description</key>
+	                    <string>Your company&apos;s name</string>
+
+	                <key>Type</key>
+	                    <string>text</string>
+
+	                <key>Default</key>
+	                    <string>___FULLUSERNAME___</string>
+	            </dict> <!-- organizationName -->
+<!--
+	            <dict>
+	                <key>Identifier</key>
+	                    <string>bundleIdentifierPrefix</string>
+
+	                <key>Required</key>
+	                    <true/>
+
+	                <key>Name</key>
+	                    <string>Organization Identifier:</string>
+
+	                <key>Description</key>
+	                    <string>Your organization&apos;s bundle identifier prefix</string>
+
+	                <key>EmptyReplacement</key>
+	                    <string>com.yourcompany</string>
+
+	                <key>Type</key>
+	                    <string>text</string>
+	            </dict> <!-- bundleIdentifierPrefix -->
+<!--
+	            <dict>
+	                <key>Identifier</key>
+	                    <string>bundleIdentifier</string>
+
+	                <key>Name</key>
+	                    <string>Bundle Identifier:</string>
+
+	                <key>NotPersisted</key>
+	                    <true/>
+
+	                <key>Description</key>
+	                    <string>Your new product&apos;s bundle identifier</string>
+
+	                <key>Default</key>
+	                    <string>___VARIABLE_bundleIdentifierPrefix:bundleIdentifier___.___VARIABLE_productName:RFC1034Identifier___</string>
+
+	                <key>Type</key>
+	                    <string>static</string>
+
+	            </dict> <!-- bundleIdentifier -->
+
 			</array>
 
 		<key>Project</key>
@@ -283,6 +340,9 @@
 
 							<key>TargetIdentifier</key>
 								<string>com.apple.dt.cocoaTouchApplicationTarget</string>
+
+							<key>WRAPPER_EXTENSION</key>
+								<string>app</string>
 
 						</dict>
 				</dict>
