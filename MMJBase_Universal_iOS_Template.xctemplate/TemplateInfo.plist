@@ -17,10 +17,23 @@
 			<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
 
 		<!-- The Ancestors key is an array of strings. The strings are the identifiers of the project templates your template inherits from. If your template has no ancestors, you can ignore this key. -->
-		<key>Ancestors</key>
+		<!-- <key>Ancestors</key>
 			<array>
 				<string>com.apple.dt.unit.cocoaTouchApplication</string>
-			</array>
+			</array> -->
+
+		<!-- Unit Test -->
+		<key>Components</key>
+			<array>
+				<dict>
+
+					<key>Identifier</key>
+						<string>com.apple.dt.unit.cocoaTouchApplicationUnitTestBundle</string>
+
+					<key>Name</key>
+						<string>___PACKAGENAME___Tests</string>
+				</dict>
+			</array> 
 
 		<!-- Set the Concrete key to YES for your template to appear in the New Project Assistant. -->
 		<key>Concrete</key>
@@ -37,6 +50,7 @@
 			<array>
 				<string>com.apple.platform.iphoneos</string>
 			</array>
+
 
 		<!-- The Options key is an array that lets you add controls to the New Project Assistant. An example of a custom control is the Type pop-up menu for command-line tool projects that lets you choose the language for the project. The Type menu is an example of a custom control. -->
 		<key>Options</key>
@@ -92,7 +106,7 @@
 						<key>Release</key>
 							<dict>
 								<key>VALIDATE_PRODUCT</key>
-								<string>YES</string>
+									<string>YES</string>
 							</dict>
 
 					</dict>
