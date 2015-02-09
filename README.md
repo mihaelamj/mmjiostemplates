@@ -3,7 +3,7 @@ Universal App iOS templates without Storyboard or XIBs, with Launchscreen in all
 
 ##What is it
 * Basic Universal iOS Application template.
-* It comes with AppDelegate, Prefix.pch and Info.plist.
+* It comes with AppDelegate, Prefix.pch, Info.plist and Localizable.strings.
 * Also included are Images.xcassets with AppIcon and LaunchImage in all sizes.
 * Sketch files for AppIcon and LaunchImage are included.
 
