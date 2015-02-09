@@ -38,7 +38,11 @@ Project Templates
 
 
 ##TODO:
-###Token Template
+###MMJ Base Universal iOS Application
+* Inline all included files, so that my name is not in the header.
+
+
+###MMJ Token Universal iOS Application
 * Make template with subgroups like Model/DataSource. (Can't figure out how to do it via "template" language).
 * Move Localizable.strings into SupportingFiles group. (Similar as above).
 * Include Podfile.
