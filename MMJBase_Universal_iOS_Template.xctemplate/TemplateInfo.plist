@@ -264,10 +264,6 @@
 
 					<!-- ProductType -->
 					<key>ProductType</key>
-					<!-- must be com.apple.product-type.tool -->
-        				<!--<string>com.apple.product-type.application</string> -->
-
-        				<!--target specifies product type 'com.apple.product-type.tool', but there's no such product type for the 'iphonesimulator' platform  -->
         				<string>com.apple.product-type.application</string> 
 
 	 				<key>BuildPhases</key>
@@ -399,6 +395,16 @@
 								<string>SupportingFiles/main.m</string>
 						</dict>
 
+					<key>Supporting Files/en.lproj/Localizable.strings</key> <!-- Localizable.strings -->
+						<dict>
+							<key>Group</key>
+								<string>Supporting Files</string>
+						</dict>
+<!--
+					<key>Supporting Files/en.lproj/Localizable.strings:Instructions</key>
+						<string>/* Localizable.strings */</string>
+-->
+
 				<!-- Resources-->
 					<key>Images.xcassets</key> <!-- Images.xcassets -->
 						<dict>
@@ -449,7 +455,10 @@
  				<string>SupportingFiles/Info.plist</string>
  				<string>SupportingFiles/Prefix.pch</string>
  				<string>SupportingFiles/main.m</string>
-
+ 				<string>SupportingFiles/en.lproj/Localizable.strings</string>
+ <!--
+ 				<string>SupportingFiles/en.lproj/Localizable.strings:Instructions</string>
+->
 			<!-- Resources-->
  				<string>Images.xcassets</string>
 
