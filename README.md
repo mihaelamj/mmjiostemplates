@@ -19,8 +19,8 @@ Two templates are included:
 * BaseView.
 * BaseSubview is a main view class for embedabble ViewControllers. It has methods for determining it's size dynamically.
 * BaseTableViewCell, BaseCollectionViewCell and BaseTableViewHeaderFooterView classes also have methods for determining their size dynamically
-* Masonry is included in all classes that need Auto Layout, so "pod install" command needs to be run when the project is first created, and then switch to the workspace.
-
+* Masonry is included in all classes that need Auto Layout. 
+* I you don't use Masonry just comment "#import <Masonry/Masonry.h>" from the header of files that include it.
 
 
 ##How to install
