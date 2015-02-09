@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+
+	<dict>
+
+	    <key>Name</key>
+	    	<string>MMJ Token Universal iOS Application</string>
+
+		<key>Description</key>
+			<string>This template provides a starting point for Universal iOS application that uses no XIBs or Stortyboards. It has launch images in all sizes. Also contains prefix header. It has base model and UI classes</string>
+
+	 	<key>Identifier</key>
+			<string>hr.token.template.project.application.ios.token</string>
+
+		<key>Kind</key>
+			<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
+
+		<!-- The Ancestors key is an array of strings. The strings are the identifiers of the project templates your template inherits from. If your template has no ancestors, you can ignore this key. -->
+		<key>Ancestors</key>
+			<array>
+				<string>hr.token.template.project.application.ios.mmj</string>
+			</array> 
+
+
+		<!-- Set the Concrete key to YES for your template to appear in the New Project Assistant. -->
+		<key>Concrete</key>
+			<true/>
+
+		<key>SortOrder</key>
+			<integer>1</integer>
+
+        <key>Type</key>
+            <string>popup</string>
+
+		<!-- Platforms -->
+		<key>Platforms</key>
+			<array>
+				<string>com.apple.platform.iphoneos</string>
+			</array>
+
+
+		<!-- The Definitions key is a dictionary. This key allows you to add comments, includes, and code to source code files. It also allows you to create groups from files or folders in an Xcode workspace. If you use the Definitions key to create groups, you must also have a Nodes key in your project template. -->
+		<key>Definitions</key> <!-- Definitions Start -->
+			<dict>
+
+		<!-- Model-->
+
+			<key>Model/DataSource/ArrayDataSource.h</key> <!-- ArrayDataSource.h -->
+						<dict>
+							<key>Group</key>
+								<string>DataSource</string>
+							<key>Path</key>
+								<string>Model/DataSource/ArrayDataSource.h</string>
+						</dict>
+			<key>Model/DataSource/ArrayDataSource.m</key> <!-- ArrayDataSource.m -->
+						<dict>
+							<key>Group</key>
+								<string>DataSource</string>
+							<key>Path</key>
+								<string>Model/DataSource/ArrayDataSource.m</string>
+						</dict>
+
+		<!-- UI -->
+			<!-- ViewController -->
+			<key>UI/ViewController/Main/BaseViewController.h</key> <!-- BaseViewController.h -->
+						<dict>
+							<key>Group</key>
+								<string>ViewController</string>
+							<key>Path</key>
+								<string>UI/ViewController/Main/BaseViewController.h</string>
+						</dict>
+			<key>UI/ViewController/Main/BaseViewController.m</key> <!-- BaseViewController.m -->
+						<dict>
+							<key>Group</key>
+								<string>ViewController</string>
+							<key>Path</key>
+								<string>UI/ViewController/Main/BaseViewController.m</string>
+						</dict>
+
+			<!-- View -->
+			<key>UI/View/BaseView.h</key> <!-- BaseView.h -->
+						<dict>
+							<key>Group</key>
+								<string>View</string>
+							<key>Path</key>
+								<string>UI/View/BaseView.h</string>
+						</dict>
+			<key>UI/View/BaseView.m</key> <!-- BaseView.m -->
+						<dict>
+							<key>Group</key>
+								<string>View</string>
+							<key>Path</key>
+								<string>UI/View/BaseView.m</string>
+						</dict>
+
+			<!-- Subview -->
+			<key>UI/Subview/BaseSubview.h</key> <!-- BaseSubview.h -->
+				<dict>
+					<key>Group</key>
+						<string>Subview</string>
+					<key>Path</key>
+						<string>UI/Subview/BaseSubview.h</string>
+				</dict>
+			<key>UI/Subview/BaseSubview.m</key> <!-- BaseSubview.m -->
+				<dict>
+					<key>Group</key>
+						<string>Subview</string>
+					<key>Path</key>
+						<string>UI/Subview/BaseSubview.m</string>
+				</dict>
+
+			<!-- TableViewCell -->
+			<key>UI/TableViewCell/BaseTableViewCell.h</key> <!-- BaseTableViewCell.h -->
+				<dict>
+					<key>Group</key>
+						<string>TableViewCell</string>
+					<key>Path</key>
+						<string>UI/TableViewCell/BaseTableViewCell.h</string>
+				</dict>
+			<key>UI/TableViewCell/BaseTableViewCell.m</key> <!-- BaseTableViewCell.m -->
+				<dict>
+					<key>Group</key>
+						<string>TableViewCell</string>
+					<key>Path</key>
+						<string>UI/TableViewCell/BaseTableViewCell.m</string>
+				</dict>
+
+			<!-- CollectionViewCell -->
+			<key>UI/CollectionViewCell/BaseCollectionViewCell.h</key> <!-- BaseCollectionViewCell.h -->
+				<dict>
+					<key>Group</key>
+						<string>CollectionViewCell</string>
+					<key>Path</key>
+						<string>UI/CollectionViewCell/BaseCollectionViewCell.h</string>
+				</dict>
+			<key>UI/CollectionViewCell/BaseCollectionViewCell.m</key> <!-- BaseCollectionViewCell.m -->
+				<dict>
+					<key>Group</key>
+						<string>CollectionViewCell</string>
+					<key>Path</key>
+						<string>UI/CollectionViewCell/BaseCollectionViewCell.m</string>
+				</dict>
+
+			<!-- TableHeaderFooterView -->
+			<key>UI/TableHeaderFooterView/BaseTableViewHeaderFooterView.h</key> <!-- BaseTableViewHeaderFooterView.h -->
+				<dict>
+					<key>Group</key>
+						<string>TableHeaderFooterView</string>
+					<key>Path</key>
+						<string>UI/TableHeaderFooterView/BaseTableViewHeaderFooterView.h</string>
+				</dict>
+			<key>UI/TableHeaderFooterView/BaseTableViewHeaderFooterView.m</key> <!-- BaseTableViewHeaderFooterView.m -->
+				<dict>
+					<key>Group</key>
+						<string>TableHeaderFooterView</string>
+					<key>Path</key>
+						<string>UI/TableHeaderFooterView/BaseTableViewHeaderFooterView.m</string>
+				</dict>
+
+			</dict> <!-- Definitions End -->
+
+		<!-- The Nodes key is an array key that creates a file in the project. Add a string key for each file you want to be created in the project. The value for the key is the name of the file. -->
+		 <key>Nodes</key> <!-- Nodes Start -->
+	        <array>
+
+			<!-- Model -->
+ 				<string>Model/DataSource/ArrayDataSource.h</string>
+ 				<string>Model/DataSource/ArrayDataSource.m</string>
+
+ 			<!-- UI -->
+ 				<string>UI/ViewController/Main/BaseViewController.h</string>
+ 				<string>UI/ViewController/Main/BaseViewController.m</string>
+
+ 				<string>UI/View/BaseView.h</string>
+ 				<string>UI/View/BaseView.m</string>
+
+ 				<string>UI/Subview/BaseSubview.h</string>
+ 				<string>UI/Subview/BaseSubview.m</string>
+
+ 				<string>UI/TableViewCell/BaseTableViewCell.h</string>
+ 				<string>UI/TableViewCell/BaseTableViewCell.m</string>
+
+ 				<string>UI/CollectionViewCell/BaseCollectionViewCell.h</string>
+ 				<string>UI/CollectionViewCell/BaseCollectionViewCell.m</string>
+
+ 				<string>UI/TableHeaderFooterView/BaseTableViewHeaderFooterView.h</string>
+ 				<string>UI/TableHeaderFooterView/BaseTableViewHeaderFooterView.m</string>
+
+	        </array> <!-- Nodes End -->
+
+	    </dict> 
+
+</plist>
