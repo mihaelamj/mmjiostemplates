@@ -25,7 +25,6 @@ Two templates are included:
 
 ##How to install
 * Copy the whole directory to:/Users/{your user name}/Library/Developer/Xcode/Templates/Project Templates
-Project Templates
 
 ##Creating New project
 * Choose "MMJ Base Universal iOS Application" or "MMJ Token Universal iOS Application" from the New Project dialog.
