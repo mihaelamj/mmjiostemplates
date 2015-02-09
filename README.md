@@ -16,6 +16,6 @@ Project Templates
 * Inline Prefix.pch.
 * Inline Info.plist.
 * Add options for company name.
-* Add options for choosing Application type: (iPhone, iPad, universal).
+* Add options for choosing Application type: (iPhone, iPad, Universal).
 * Include Test Project.
-* Add option to include Podfile
+* Add option to include Podfile.
