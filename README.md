@@ -11,7 +11,7 @@ Universal App iOS templates without Storyboard or XIBs, with Launchscreen in all
 Two templates are included:
 ###MMJ Base Universal iOS Application
 * It has just basic files : AppDelegate, Prefix.pch, Info.plist and Localizable.strings.
-* It includes Navigation Controller 
+* It includes Navigation Controller in AppDelegate.
 
 ###MMJ Token Universal iOS Application
 * It has everything from "MMJ Base Universal iOS Application" template.
