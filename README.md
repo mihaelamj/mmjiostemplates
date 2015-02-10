@@ -1,5 +1,6 @@
 # mmjiostemplates
-Universal App iOS templates without Storyboard or XIBs, with Launchscreen in all sizes. For Xcode 6.x
+* Universal App iOS templates without Storyboard or XIBs, with Launchscreen in all sizes. For Xcode 6.x
+* It is well documented, so it could be a starting point for making your own Xcode 6.x iOS Project Template.
 
 ##What is it
 * Basic Universal iOS Application template.

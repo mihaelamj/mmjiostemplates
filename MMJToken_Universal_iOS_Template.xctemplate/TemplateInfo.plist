@@ -16,7 +16,7 @@
 		<key>Kind</key>
 			<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
 
-		<!-- The Ancestors key is an array of strings. The strings are the identifiers of the project templates your template inherits from. If your template has no ancestors, you can ignore this key. -->
+		<!-- This template descends from my base template, but it could have multiple ancestors, thus array. -->
 		<key>Ancestors</key>
 			<array>
 				<string>hr.token.template.project.application.ios.mmj</string>
@@ -44,7 +44,7 @@
 		<key>Definitions</key> <!-- Definitions Start -->
 			<dict>
 
-		<!-- External-->
+		<!-- External -->
 
 			<!-- Podfile-->
 			<key>../Podfile</key>
@@ -177,7 +177,7 @@
 		 <key>Nodes</key> <!-- Nodes Start -->
 	        <array>
 
-	        <!-- External-->
+	        <!-- External -->
 	        	<string>../Podfile</string>
 
 			<!-- Model -->
