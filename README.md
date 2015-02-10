@@ -31,6 +31,7 @@ Two templates are included:
 * Choose "MMJ Base Universal iOS Application" or "MMJ Token Universal iOS Application" from the New Project dialog.
 * Enter your "Product Name" and "Organization Name".
 * After the project has been created, change the "Boundle Identifier".
+* Replace my name and company from all comments at the top of each file. It will be fixed when I innline all the included files, as stated in the TODO item.
 
 ##Unit Tests
 * I use Kiwi so I didn't include the test target's main .m file.
