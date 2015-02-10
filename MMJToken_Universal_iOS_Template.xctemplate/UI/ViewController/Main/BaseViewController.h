@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
+/**
+ *  Base View Controller is used to add common methods/properties for all View Controllers in the app.
+ */
+
 @interface BaseViewController : UIViewController
 
 @end

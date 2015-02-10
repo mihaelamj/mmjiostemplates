@@ -23,6 +23,30 @@
 
 typedef void (^TableViewCellConfigureBlock)(id cell, id item);
 
+/**
+ Generic DataSource used in ViewController to take responsability for populating and maniputaling the Table View.
+ Best used as lazy loaded property:
+ 
+ - (ArrayDataSource *)dataSource
+ {
+ if (!_dataSource) {
+ 
+ //make customize cell bloack
+ void (^configureCell)(id, SomeObject*) = ^(id cell, SomeObject* item) {
+ [cell customize:item];
+ };
+ 
+ //create array data source
+ _dataSource = [[ArrayDataSource alloc] initWithArray:self.items cellIdentifier:[self.cellClass reuseIdentifier] configureCellBlock:configureCell];
+ }
+ 
+ return _dataSource;
+ }
+ 
+ Usage: self.mainView.tableView.dataSource = self.dataSource;
+
+ */
+
 @interface ArrayDataSource : NSObject<UITableViewDataSource>
 
 - (id)initWithArray:(NSArray *)array cellIdentifier:(NSString *)cellIdentifier configureCellBlock:(TableViewCellConfigureBlock)configureCellBlock;

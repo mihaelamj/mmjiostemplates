@@ -11,6 +11,15 @@
 //auto layout
 // #import <Masonry/Masonry.h>
 
+/**
+ *  Virtual class defining contract for making custom UITableViewHeaderFooterView classes.
+ *
+ *  Each custom class needs to expose static methods for determining it's height.
+ *
+ *  Reuse identifier is static and generated from class name.
+ *
+ */
+
 @interface BaseTableViewHeaderFooterView : UITableViewHeaderFooterView
 
 + (CGFloat)recomendedHeight;

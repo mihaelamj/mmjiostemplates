@@ -11,6 +11,16 @@
 //auto layout
 // #import <Masonry/Masonry.h>
 
+/**
+ *  Virtual class defining contract for making custom table view cell classes.
+ *
+ *  Each custom table view cell class needs to expose static methods for determining it's height.
+ *
+ *  Reuse identifier is static and generated from cell class name.
+ *
+ *  It also has dynamic methods for determinig height at runtime.
+ */
+
 @interface BaseTableViewCell : UITableViewCell
 
 //static
