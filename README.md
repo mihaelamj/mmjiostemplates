@@ -15,7 +15,7 @@ Two templates are included:
 
 ###MMJ Token Universal iOS Application
 * It has everything from "MMJ Base Universal iOS Application" template.
-* Also includes basic model class for Data Source pattern.
+* Also includes a basic model class for Data Source pattern.
 * BaseViewController.
 * BaseView.
 * BaseSubview is a main view class for embedabble ViewControllers. It has methods for determining it's size dynamically.
