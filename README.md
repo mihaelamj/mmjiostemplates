@@ -21,6 +21,7 @@ Two templates are included:
 * BaseSubview is a main view class for embedabble ViewControllers. It has methods for determining it's size dynamically.
 * BaseTableViewCell, BaseCollectionViewCell and BaseTableViewHeaderFooterView classes also have methods for determining their size dynamically
 * Masonry is included in all classes that need Auto Layout, but commented.
+* Podfile is included with my favourite Cocoapods. You may change it to your liking.
 
 
 ##How to install
@@ -44,4 +45,3 @@ Two templates are included:
 ###MMJ Token Universal iOS Application
 * Make template with subgroups like Model/DataSource. (Can't figure out how to do it via "template" language).
 * Move Localizable.strings into SupportingFiles group. (Similar as above).
-* Include Podfile.
