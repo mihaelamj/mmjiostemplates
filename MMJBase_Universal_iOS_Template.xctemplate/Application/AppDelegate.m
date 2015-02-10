@@ -8,6 +8,9 @@
 
 #import "AppDelegate.h"
 
+//config
+//#import <AFNetworking/AFNetworkActivityIndicatorManager.h>
+
 @interface AppDelegate ()
 
 @property (nonatomic, strong) UINavigationController *navigationController;
@@ -36,9 +39,10 @@
     //@INFO: call if needed
     //    [self askForLocalNotifications:application];
     
+    //@INFO: set global Application settings
 //    [self configureApplication];
     
-    //add delay to show the launch screen
+    //@TEST: add delay to show the launch screen - REMOVE ME!!!
     [NSThread sleepForTimeInterval:3];
     
     [self.window makeKeyAndVisible];
@@ -74,6 +78,39 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+#pragma mark -
+#pragma mark Private Methods
+
+- (void)configureApplication
+{
+    //set activity indicator for all AFNetworking operations (required by Apple)
+//    [[AFNetworkActivityIndicatorManager sharedManager] setEnabled:YES];
+//    
+//    //set cache for requests
+//    NSURLCache *URLCache = [[NSURLCache alloc] initWithMemoryCapacity:8 * sizeMB diskCapacity:20 * sizeMB diskPath:nil];
+//    [NSURLCache setSharedURLCache:URLCache];
+    
+    //    UINavigationBar *navigationBarAppearance = [UINavigationBar appearanceWhenContainedIn:[UINavigationController class], nil];
+    
+    //apperance style
+//    UINavigationBar *mainNavigationBarAppearance = [UINavigationBar appearance];
+//    [mainNavigationBarAppearance setTintColor:[UIColor colorWithStyle:ColorStyleHilight]];
+//    [[UINavigationBar appearance] setBarTintColor:[UIColor colorWithStyle:ColorStyleLight]];
+    
+    //    self.navigationItem.backBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"NEW TITLE" style:UIBarButtonItemStylePlain target:nil action:nil];
+    
+    
+    //set status bar style
+    //    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
+    
+    //set navigation bar style
+    //    [[UINavigationBar appearance] setBackIndicatorImage:[UIImage imageNamed:@"ic_back_arrow"]];
+    //    [[UINavigationBar appearance] setBackIndicatorTransitionMaskImage:[UIImage imageNamed:@"ic_back_arrow"]];
+    
+    //    //register for notifications
+    //    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(userLoggedOut) name:kNotificationUserLoggedOut object:nil];
 }
 
 #pragma mark -

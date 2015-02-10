@@ -11,6 +11,7 @@ Universal App iOS templates without Storyboard or XIBs, with Launchscreen in all
 Two templates are included:
 ###MMJ Base Universal iOS Application
 * It has just basic files : AppDelegate, Prefix.pch, Info.plist and Localizable.strings.
+* It includes Navigation Controller 
 
 ###MMJ Token Universal iOS Application
 * It has everything from "MMJ Base Universal iOS Application" template.
@@ -19,8 +20,7 @@ Two templates are included:
 * BaseView.
 * BaseSubview is a main view class for embedabble ViewControllers. It has methods for determining it's size dynamically.
 * BaseTableViewCell, BaseCollectionViewCell and BaseTableViewHeaderFooterView classes also have methods for determining their size dynamically
-* Masonry is included in all classes that need Auto Layout. 
-* I you don't use Masonry just comment "#import <Masonry/Masonry.h>" from the header of files that include it.
+* Masonry is included in all classes that need Auto Layout, but commented.
 
 
 ##How to install
