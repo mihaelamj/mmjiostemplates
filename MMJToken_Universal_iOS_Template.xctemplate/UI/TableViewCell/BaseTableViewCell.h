@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 //auto layout
-#import <Masonry/Masonry.h>
+// #import <Masonry/Masonry.h>
 
 @interface BaseTableViewCell : UITableViewCell
 

@@ -266,20 +266,21 @@
 					<key>ProductType</key>
         				<string>com.apple.product-type.application</string> 
 
+        			<!-- BuildP hases -->
 	 				<key>BuildPhases</key>
 						<array>
 
-							<dict>
+							<dict> <!-- Compile Sources -->
 								<key>Class</key>
 									<string>Sources</string>
 							</dict>
 
-							<dict>
+							<dict> <!-- Link Binary With Libraries -->
 								<key>Class</key>
 									<string>Frameworks</string>
 							</dict>
 
-							<dict>
+							<dict> <!-- Copy Boundle Resources -->
 								<key>Class</key>
 									<string>Resources</string>
 							</dict>
