@@ -38,6 +38,13 @@ Two templates are included:
 * I use Kiwi so I didn't include the test target's main .m file.
 * You may do that by creating a new file and choosing "Test Case Class". 
 
+##LaunchImages And AppIcon
+* When you create the app with any of included templates, it comes with AppIcon and LaunchImage in all sizes, included in Images.xcassets. And they are all purple :)
+* The purpose of this is to make the application occupy the whole screen of any iOS device, and that you may see it since the purple screen appears upon launching the app.
+* In the top directory 2 Skecth files are included so that you may customize the screens and icons.
+* Then just export the screens/icons and drag & drop them into appropriate locations in Images.xcassets. 
+
+
 
 ##TODO:
 ###MMJ Base Universal iOS Application
