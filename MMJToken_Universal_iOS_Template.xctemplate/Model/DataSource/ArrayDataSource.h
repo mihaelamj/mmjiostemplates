@@ -54,7 +54,9 @@ typedef void (^TableViewCellConfigureBlock)(id cell, id item);
 
 @property (nonatomic, strong) NSArray *array;
 
-//delegate for editing a table
+/**
+ *  Deleagte for editing a table view
+ */
 @property (nonatomic, weak) id <ArrayDataSourceTableEditDataSource> tableEditDataSource;
 
 
