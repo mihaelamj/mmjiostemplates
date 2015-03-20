@@ -8,6 +8,8 @@
 * Also included are Images.xcassets with AppIcon and LaunchImage in all sizes.
 * Sketch files for AppIcon and LaunchImage are included.
 
+<img src="https://raw.github.com//mihaelamj/mmjiostemplates/master/Images/Templates.png">
+
 ##Templates
 Two templates are included:
 ###MMJ Base Universal iOS Application
