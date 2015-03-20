@@ -14,6 +14,9 @@ Two templates are included:
 * It has just basic files : AppDelegate, Prefix.pch, Info.plist and Localizable.strings.
 * It includes Navigation Controller in AppDelegate.
 
+<img src="https://raw.github.com//mihaelamj/mmjiostemplates/master/Images/Base.png">
+
+
 ###MMJ Token Universal iOS Application
 * It has everything from "MMJ Base Universal iOS Application" template.
 * Also includes a basic model class for Data Source pattern.
@@ -23,6 +26,9 @@ Two templates are included:
 * BaseTableViewCell, BaseCollectionViewCell and BaseTableViewHeaderFooterView classes also have methods for determining their size dynamically
 * Masonry is included in all classes that need Auto Layout, but commented.
 * Podfile is included with my favourite Cocoapods. You may change it to your liking.
+
+<img src="https://raw.github.com//mihaelamj/mmjiostemplates/master/Images/Token.png">
+
 
 
 ##How to install
