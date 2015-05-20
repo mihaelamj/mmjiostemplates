@@ -8,7 +8,7 @@
 * Also included are Images.xcassets with AppIcon and LaunchImage in all sizes.
 * Sketch files for AppIcon and LaunchImage are included.
 
-<img src="https://raw.github.com//mihaelamj/mmjiostemplates/master/Images/Templates.png">
+<img src="https://raw.github.com/mihaelamj/mmjiostemplates/master/Images/Templates.png">
 
 ##Templates
 Two templates are included:
@@ -16,7 +16,7 @@ Two templates are included:
 * It has just basic files : AppDelegate, Prefix.pch, Info.plist and Localizable.strings.
 * It includes Navigation Controller in AppDelegate.
 
-<img src="https://raw.github.com//mihaelamj/mmjiostemplates/master/Images/Base.png">
+<img src="https://raw.github.com/mihaelamj/mmjiostemplates/master/Images/Base.png">
 
 
 ###MMJ Token Universal iOS Application
@@ -29,7 +29,7 @@ Two templates are included:
 * Masonry is included in all classes that need Auto Layout, but commented.
 * Podfile is included with my favourite Cocoapods. You may change it to your liking.
 
-<img src="https://raw.github.com//mihaelamj/mmjiostemplates/master/Images/Token.png">
+<img src="https://raw.github.com/mihaelamj/mmjiostemplates/master/Images/Token.png">
 
 
 
